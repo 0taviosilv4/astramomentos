@@ -1,1 +1,502 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Duo Studios | Fotografia</title>
+<meta name="description" content="Duo Studios: fotografia de casamentos, ensaios, retratos, eventos e marcas. Portfólio e orçamento.">
+<meta property="og:title" content="Duo Studios | Fotografia">
+<meta property="og:description" content="Fotografia de casamentos, ensaios, retratos, eventos e marcas.">
+<meta property="og:type" content="website">
+<link rel="icon" href="imagens/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div aria-hidden="true" class="progress">
+</div>
+<header class="site-header">
+ <a aria-label="Duo Studios, início" class="logo" href="#inicio">
+  DUO STUDIOS
+ </a>
+ <button aria-controls="nav" aria-expanded="false" aria-label="Abrir menu" class="menu-btn">
+  <span>
+  </span>
+  <span>
+  </span>
+  <span>
+  </span>
+ </button>
+ <nav aria-label="Principal" class="nav" id="nav">
+  <a href="#inicio">
+   Início
+  </a>
+  <a href="#portfolio">
+   Portfólio
+  </a>
+  <a href="#sobre">
+   Sobre nós
+  </a>
+  <a href="#servicos">
+   Serviços
+  </a>
+  <a href="#contato">
+   Contato
+  </a>
+ </nav>
+</header>
+<main id="main">
+ <section class="hero" id="inicio">
+  <div class="hero-photo">
+   <img alt="Casal de gestantes abraçado em um campo ao entardecer" fetchpriority="high" height="930" src="imagens/hero.webp" width="1240"/>
+  </div>
+  <h1 class="hero-logo">
+   DUO
+   <small>
+    STUDIOS · FOTOGRAFIA
+   </small>
+  </h1>
+  <div class="hero-tab">
+   <p>
+    Dois olhares para um só instante.
+   </p>
+   <a href="#destaques">
+    Explorar o portfólio ↓
+   </a>
+  </div>
+ </section>
+ <section class="wrap" id="destaques">
+  <h2 style="max-width:12ch">
+   Trabalhos selecionados
+  </h2>
+  <div class="split featured" id="featured" style="margin-top:3rem">
+   <figure class="f1">
+    <a class="reveal" href="#portfolio" style="display:block;overflow:hidden">
+     <img alt="Casal segurando a certidão diante do bolo branco de três andares" height="697" loading="lazy" src="imagens/f03.webp" width="1240"/>
+    </a>
+    <figcaption>
+     <span>
+      Casamento civil
+     </span>
+     <span class="meta">
+      Casamentos, 2026
+     </span>
+    </figcaption>
+   </figure>
+   <figure class="f2">
+    <a class="reveal" href="#portfolio" style="display:block;overflow:hidden">
+     <img alt="Casal deitado na grama durante o pôr do sol, com ela segurando sapatinhos de bebê" height="1600" loading="lazy" src="imagens/f02.webp" width="1200"/>
+    </a>
+    <figcaption>
+     <span>
+      Ensaio de gestante ao pôr do sol
+     </span>
+     <span class="meta">
+      Ensaios, 2026
+     </span>
+    </figcaption>
+   </figure>
+   <figure class="f3">
+    <a class="reveal" href="#portfolio" style="display:block;overflow:hidden">
+     <img alt="Arco iluminado da festa de São Pedro de Assunção, com bandeirinhas coloridas, à noite" height="1600" loading="lazy" src="imagens/f01.webp" width="1200"/>
+    </a>
+    <figcaption>
+     <span>
+      São Pedro de Assunção
+     </span>
+     <span class="meta">
+      Eventos, 2026
+     </span>
+    </figcaption>
+   </figure>
+  </div>
+ </section>
+ <section class="wrap" id="portfolio">
+  <h2>
+   Portfólio
+  </h2>
+  <p class="meta" style="margin-block:1rem 2.5rem">
+   Filtre por categoria e toque numa foto para ampliar.
+  </p>
+  <div aria-label="Filtrar por categoria" class="filters" id="filters" role="group">
+   <button aria-pressed="true" data-f="todos" type="button">
+    Todos
+   </button>
+   <button aria-pressed="false" data-f="casamentos" type="button">
+    Casamentos
+   </button>
+   <button aria-pressed="false" data-f="ensaios" type="button">
+    Ensaios
+   </button>
+   <button aria-pressed="false" data-f="retratos" type="button">
+    Retratos
+   </button>
+   <button aria-pressed="false" data-f="eventos" type="button">
+    Eventos
+   </button>
+   <button aria-pressed="false" data-f="marca" type="button">
+    Fotografia de marca
+   </button>
+   <button aria-pressed="false" data-f="igreja" type="button">
+    Igreja
+   </button>
+  </div>
+  <div class="grid" id="grid">
+   <button aria-label="Ampliar: São Pedro de Assunção" class="tile reveal" data-cat="eventos" data-titulo="São Pedro de Assunção" type="button">
+    <img alt="Arco iluminado da festa de São Pedro de Assunção, com bandeirinhas coloridas, à noite" height="1600" src="imagens/f01.webp" width="1200"/>
+    <span>
+     São Pedro de Assunção
+    </span>
+   </button>
+   <button aria-label="Ampliar: Ensaio de gestante ao pôr do sol" class="tile reveal" data-cat="ensaios" data-titulo="Ensaio de gestante ao pôr do sol" type="button">
+    <img alt="Casal deitado na grama durante o pôr do sol, com ela segurando sapatinhos de bebê" height="1600" src="imagens/f02.webp" width="1200"/>
+    <span>
+     Ensaio de gestante ao pôr do sol
+    </span>
+   </button>
+   <button aria-label="Ampliar: Casamento civil" class="tile reveal" data-cat="casamentos" data-titulo="Casamento civil" type="button">
+    <img alt="Casal segurando a certidão diante do bolo branco de três andares" height="697" loading="lazy" src="imagens/f03.webp" width="1240"/>
+    <span>
+     Casamento civil
+    </span>
+   </button>
+   <button aria-label="Ampliar: Retrato de amigos" class="tile reveal" data-cat="retratos" data-titulo="Retrato de amigos" type="button">
+    <img alt="Dois homens sorrindo e abraçados, cada um com um copinho na mão" height="898" loading="lazy" src="imagens/f04.webp" width="1240"/>
+    <span>
+     Retrato de amigos
+    </span>
+   </button>
+   <button aria-label="Ampliar: Fotografia de produto: unhas" class="tile reveal" data-cat="marca" data-titulo="Fotografia de produto: unhas" type="button">
+    <img alt="Mãos com unhas decoradas ao lado de frascos e potes de produtos para unhas" height="1280" loading="lazy" src="imagens/f05.webp" width="720"/>
+    <span>
+     Fotografia de produto: unhas
+    </span>
+   </button>
+   <button aria-label="Ampliar: Ensaio de gestante no entardecer" class="tile reveal" data-cat="ensaios" data-titulo="Ensaio de gestante no entardecer" type="button">
+    <img alt="Casal abraçado em um campo ao entardecer, ela mostrando uma meia de bebê" height="930" loading="lazy" src="imagens/f06.webp" width="1240"/>
+    <span>
+     Ensaio de gestante no entardecer
+    </span>
+   </button>
+   <button aria-label="Ampliar: Ultrassom em destaque" class="tile reveal" data-cat="ensaios" data-titulo="Ultrassom em destaque" type="button">
+    <img alt="Mãos de um casal segurando a tira de imagens do ultrassom diante da barriga" height="1600" loading="lazy" src="imagens/f07.webp" width="1200"/>
+    <span>
+     Ultrassom em destaque
+    </span>
+   </button>
+   <button aria-label="Ampliar: A assinatura" class="tile reveal" data-cat="casamentos" data-titulo="A assinatura" type="button">
+    <img alt="Noivo assinando os papéis do casamento ao lado do bolo e dos enfeites" height="1280" loading="lazy" src="imagens/f08.webp" width="720"/>
+    <span>
+     A assinatura
+    </span>
+   </button>
+   <button aria-label="Ampliar: Louvor" class="tile reveal" data-cat="igreja" data-titulo="Louvor" type="button">
+    <img alt="Cantora com microfone durante o louvor, com a letra projetada ao fundo" height="1481" loading="lazy" src="imagens/f09.webp" width="1240"/>
+    <span>
+     Louvor
+    </span>
+   </button>
+   <button aria-label="Ampliar: Casamento civil: o sim" class="tile reveal" data-cat="casamentos" data-titulo="Casamento civil: o sim" type="button">
+    <img alt="Casal sorrindo enquanto o noivo assina os documentos" height="1280" loading="lazy" src="imagens/f10.webp" width="960"/>
+    <span>
+     Casamento civil: o sim
+    </span>
+   </button>
+   <button aria-label="Ampliar: Festa junina: bastidores" class="tile reveal" data-cat="eventos" data-titulo="Festa junina: bastidores" type="button">
+    <img alt="Mulher de vestido rosa com microfone enquanto outra pessoa a filma ao fundo" height="1600" loading="lazy" src="imagens/f11.webp" width="900"/>
+    <span>
+     Festa junina: bastidores
+    </span>
+   </button>
+   <button aria-label="Ampliar: Culto: braços erguidos" class="tile reveal" data-cat="igreja" data-titulo="Culto: braços erguidos" type="button">
+    <img alt="Jovem de costas com os braços erguidos em um salão iluminado de azul" height="1600" loading="lazy" src="imagens/f12.webp" width="900"/>
+    <span>
+     Culto: braços erguidos
+    </span>
+   </button>
+   <button aria-label="Ampliar: Ensaio: leitura na grama" class="tile reveal" data-cat="ensaios" data-titulo="Ensaio: leitura na grama" type="button">
+    <img alt="Casal sentado na grama lendo a Bíblia juntos" height="930" loading="lazy" src="imagens/f13.webp" width="1240"/>
+    <span>
+     Ensaio: leitura na grama
+    </span>
+   </button>
+   <button aria-label="Ampliar: Santa ceia: detalhe" class="tile reveal" data-cat="igreja" data-titulo="Santa ceia: detalhe" type="button">
+    <img alt="Mão segurando o copinho de suco e um pedaço de pão" height="904" loading="lazy" src="imagens/f14.webp" width="1240"/>
+    <span>
+     Santa ceia: detalhe
+    </span>
+   </button>
+   <button aria-label="Ampliar: Testemunhas e família" class="tile reveal" data-cat="casamentos" data-titulo="Testemunhas e família" type="button">
+    <img alt="Noivos e convidados em volta da mesa enquanto uma pessoa assina" height="697" loading="lazy" src="imagens/f15.webp" width="1240"/>
+    <span>
+     Testemunhas e família
+    </span>
+   </button>
+   <button aria-label="Ampliar: Encontro e abraço" class="tile reveal" data-cat="igreja" data-titulo="Encontro e abraço" type="button">
+    <img alt="Mulher sorrindo e segurando as mãos de uma senhora durante um encontro" height="906" loading="lazy" src="imagens/f16.webp" width="1240"/>
+    <span>
+     Encontro e abraço
+    </span>
+   </button>
+   <button aria-label="Ampliar: Festa junina: fotógrafa" class="tile reveal" data-cat="eventos" data-titulo="Festa junina: fotógrafa" type="button">
+    <img alt="Jovem fotografando com o celular em uma rua à noite" height="1600" loading="lazy" src="imagens/f17.webp" width="1200"/>
+    <span>
+     Festa junina: fotógrafa
+    </span>
+   </button>
+   <button aria-label="Ampliar: Santa ceia" class="tile reveal" data-cat="igreja" data-titulo="Santa ceia" type="button">
+    <img alt="Jovem de olhos fechados erguendo um copinho entre outras pessoas" height="928" loading="lazy" src="imagens/f18.webp" width="1240"/>
+    <span>
+     Santa ceia
+    </span>
+   </button>
+   <button aria-label="Ampliar: Oração" class="tile reveal" data-cat="igreja" data-titulo="Oração" type="button">
+    <img alt="Jovem orando de mãos abertas entre as cadeiras do templo" height="1600" loading="lazy" src="imagens/f19.webp" width="918"/>
+    <span>
+     Oração
+    </span>
+   </button>
+   <button aria-label="Ampliar: Bíblia no colo" class="tile reveal" data-cat="igreja" data-titulo="Bíblia no colo" type="button">
+    <img alt="Mulher sentada com a Bíblia aberta no colo" height="918" loading="lazy" src="imagens/f20.webp" width="1240"/>
+    <span>
+     Bíblia no colo
+    </span>
+   </button>
+  </div>
+ </section>
+ <section class="dark wrap" id="servicos">
+  <h2>
+   Serviços
+  </h2>
+  <div style="margin-top:3rem">
+   <article class="service">
+    <figure class="reveal">
+     <img alt="Arco iluminado da festa de São Pedro de Assunção, com bandeirinhas coloridas, à noite" height="1600" loading="lazy" src="imagens/f01.webp" width="1200"/>
+    </figure>
+    <div class="rise">
+     <h3>
+      Fotografia de eventos
+     </h3>
+     <p>
+      Cobertura de eventos com atenção aos detalhes e aos instantes entre as cerimônias. [Texto editável]
+     </p>
+    </div>
+   </article>
+   <article class="service">
+    <figure class="reveal">
+     <img alt="Casal deitado na grama durante o pôr do sol, com ela segurando sapatinhos de bebê" height="1600" loading="lazy" src="imagens/f02.webp" width="1200"/>
+    </figure>
+    <div class="rise">
+     <h3>
+      Ensaios fotográficos
+     </h3>
+     <p>
+      Sessões individuais, de casal ou família, em estúdio ou ao ar livre. [Texto editável]
+     </p>
+    </div>
+   </article>
+   <article class="service">
+    <figure class="reveal">
+     <img alt="Casal segurando a certidão diante do bolo branco de três andares" height="697" loading="lazy" src="imagens/f03.webp" width="1240"/>
+    </figure>
+    <div class="rise">
+     <h3>
+      Casamentos
+     </h3>
+     <p>
+      Registro do dia inteiro, do preparo à festa. [Texto editável]
+     </p>
+    </div>
+   </article>
+   <article class="service">
+    <figure class="reveal">
+     <img alt="Dois homens sorrindo e abraçados, cada um com um copinho na mão" height="898" loading="lazy" src="imagens/f04.webp" width="1240"/>
+    </figure>
+    <div class="rise">
+     <h3>
+      Retratos
+     </h3>
+     <p>
+      Retratos naturais, pessoais e profissionais. [Texto editável]
+     </p>
+    </div>
+   </article>
+   <article class="service">
+    <figure class="reveal">
+     <img alt="Mãos com unhas decoradas ao lado de frascos e potes de produtos para unhas" height="1280" loading="lazy" src="imagens/f05.webp" width="720"/>
+    </figure>
+    <div class="rise">
+     <h3>
+      Fotografia comercial
+     </h3>
+     <p>
+      Imagens para marcas, produtos e equipes. [Texto editável]
+     </p>
+    </div>
+   </article>
+  </div>
+ </section>
+ <section class="wrap" id="sobre">
+  <div class="about">
+   <img alt="Equipe da Duo Studios " class="reveal" height="1200" loading="lazy" src="imagens/sobre.svg" width="900"/>
+   <div>
+    <h2>
+     Sobre nós
+    </h2>
+    <p class="lead">
+     A Duo Studios transforma momentos em registros visuais significativos.
+    </p>
+    <p>
+     A Duo Studios é conduzida por Mariana e Gaby, em parceria. As duas são da igreja, e parte do portfólio registra cultos e encontros da comunidade. [Texto editável: complete com a história e o jeito de trabalhar do estúdio.]
+    </p>
+   </div>
+  </div>
+ </section>
+ <section class="dark wrap" id="contato">
+  <div class="contact">
+   <div>
+    <h2>
+     Vamos conversar?
+    </h2>
+    <p style="margin-top:1rem">
+     Conte o que você quer registrar e receba um orçamento.
+    </p>
+    <ul>
+     <li>
+      <a href="https://wa.me/5583998543817">
+       WhatsApp (83) 99854-3817
+      </a>
+     </li>
+    </ul>
+   </div>
+   <form id="contact-form" novalidate="">
+    <label>
+     Nome
+     <input aria-describedby="nome-err" autocomplete="name" name="nome"/>
+     <span class="err" id="nome-err">
+     </span>
+    </label>
+    <label>
+     E-mail
+     <input aria-describedby="email-err" autocomplete="email" name="email" type="email"/>
+     <span class="err" id="email-err">
+     </span>
+    </label>
+    <label>
+     Tipo de serviço
+     <select aria-describedby="servico-err" name="servico">
+      <option value="">
+       Selecione
+      </option>
+      <option>
+       Fotografia de eventos
+      </option>
+      <option>
+       Ensaios fotográficos
+      </option>
+      <option>
+       Casamentos
+      </option>
+      <option>
+       Retratos
+      </option>
+      <option>
+       Fotografia comercial
+      </option>
+     </select>
+     <span class="err" id="servico-err">
+     </span>
+    </label>
+    <label>
+     Mensagem
+     <textarea aria-describedby="mensagem-err" name="mensagem"></textarea>
+     <span class="err" id="mensagem-err">
+     </span>
+    </label>
+    <button class="btn light" type="submit">
+     Pedir orçamento
+    </button>
+    <p id="form-status" role="status">
+    </p>
+   </form>
+  </div>
+ </section>
+</main>
+<footer class="site-footer">
+ <div>
+  <a class="logo" href="#inicio">
+   DUO STUDIOS
+  </a>
+  <p style="margin-top:1rem">
+   Momentos transformados em registros visuais.
+  </p>
+ </div>
+ <nav aria-label="Rodapé">
+  <ul>
+   <li>
+    <a href="#inicio">
+     Início
+    </a>
+   </li>
+   <li>
+    <a href="#portfolio">
+     Portfólio
+    </a>
+   </li>
+   <li>
+    <a href="#sobre">
+     Sobre nós
+    </a>
+   </li>
+   <li>
+    <a href="#servicos">
+     Serviços
+    </a>
+   </li>
+   <li>
+    <a href="#contato">
+     Contato
+    </a>
+   </li>
+  </ul>
+ </nav>
+ <ul>
+  <li>
+   <a href="https://wa.me/5583998543817">
+    WhatsApp (83) 99854-3817
+   </a>
+  </li>
+ </ul>
+ <small>
+  ©
+  <span id="ano">
+  </span>
+  Duo Studios. Todos os direitos reservados.
+ </small>
+</footer>
+<div aria-label="Foto ampliada" aria-modal="true" class="lb" role="dialog">
+ <button aria-label="Fechar" class="x" type="button">
+  ×
+ </button>
+ <button aria-label="Foto anterior" class="pv" type="button">
+  ‹
+ </button>
+ <figure>
+  <img alt=""/>
+  <figcaption>
+   <span>
+   </span>
+   <span class="meta">
+   </span>
+  </figcaption>
+ </figure>
+ <button aria-label="Próxima foto" class="nx" type="button">
+  ›
+ </button>
+</div>
+<script src="script.js">
+</script>
+
